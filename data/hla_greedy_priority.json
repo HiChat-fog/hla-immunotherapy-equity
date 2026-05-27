@@ -1,0 +1,66 @@
+{
+  "chinese_gc": [
+    {
+      "rank": 1,
+      "allele": "A*11:01",
+      "freq_pct": 46.9,
+      "peptides": 71,
+      "genes": 19,
+      "sb": 27,
+      "marginal_cov_pct": 46.9,
+      "cumulative_cov_pct": 46.9
+    },
+    {
+      "rank": 2,
+      "allele": "A*24:02",
+      "freq_pct": 25.0,
+      "peptides": 44,
+      "genes": 15,
+      "sb": 13,
+      "marginal_cov_pct": 13.3,
+      "cumulative_cov_pct": 60.2
+    },
+    {
+      "rank": 3,
+      "allele": "A*02:01",
+      "freq_pct": 5.0,
+      "peptides": 62,
+      "genes": 21,
+      "sb": 11,
+      "marginal_cov_pct": 2.0,
+      "cumulative_cov_pct": 62.2
+    }
+  ],
+  "european": [
+    {
+      "rank": 1,
+      "allele": "A*02:01",
+      "freq_pct": 26.0,
+      "peptides": 62,
+      "genes": 21,
+      "sb": 11,
+      "marginal_cov_pct": 26.0,
+      "cumulative_cov_pct": 26.0
+    },
+    {
+      "rank": 2,
+      "allele": "A*24:02",
+      "freq_pct": 10.0,
+      "peptides": 44,
+      "genes": 15,
+      "sb": 13,
+      "marginal_cov_pct": 7.4,
+      "cumulative_cov_pct": 33.4
+    },
+    {
+      "rank": 3,
+      "allele": "A*11:01",
+      "freq_pct": 5.6,
+      "peptides": 71,
+      "genes": 19,
+      "sb": 27,
+      "marginal_cov_pct": 3.7,
+      "cumulative_cov_pct": 37.1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX auxiliary
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.blg
+*.bbl
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Large data files (use external hosting or Git LFS)
+data/TCGA_STAD_mutations_firebrowse.csv
+data/STAD_expression.tsv
+data/STAD_expression.tsv.gz
+data/STAD_clinical_xena.tsv
+data/asian_expression.tsv
+data/white_expression.tsv
+data/b76787ee-4ab4-472e-8a31-8f6addb9115e.wxs.aliquot_ensemble_masked.maf.gz
+data/TCGA_STAD_mutations_cbioportal.csv
+data/STAD_clinical.tsv
+data/STAD_clinical.tsv.gz
+
+# Archives and submission packages
+*.zip
+ChinaXiv_submission/
+model/
+
+# Teaching materials (not part of this project)
+教学/
+
+# Local notes and temporary files
+新建*.txt
+AIjaoliu.md
+报告框架.md
+和鲸上传/
+
+# Debug / testing
+debug*.py
+practical.py
+test/

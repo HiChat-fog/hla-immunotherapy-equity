@@ -1,0 +1,12 @@
+metric,value,source,notes
+global_new_cases_2022,968350,GLOBOCAN 2022,"Bray et al., CA Cancer J Clin 2024"
+global_deaths_2022,659853,GLOBOCAN 2022,
+global_rank_incidence,5,GLOBOCAN 2022,of 36 cancer types
+global_rank_mortality,5,GLOBOCAN 2022,of 36 cancer types
+east_asia_share_incidence_pct,53.8,Tan et al. 2024,Cancer Biol Med 2024;21(8):667-678
+east_asia_share_mortality_pct,48.2,Tan et al. 2024,
+east_asia_cases_gbd2021,748235,GBD 2021,"Jiang et al., Clin Epidemiol 2024"
+east_asia_deaths_gbd2021,527054,GBD 2021,
+east_asia_dalys_millions,12.1,GBD 2021,JMIR Cancer 2025
+china_asir_per_100k,29.1,GBD 2021,age-standardized incidence rate
+mongolia_asir_per_100k,36.8,GBD 2021,highest globally

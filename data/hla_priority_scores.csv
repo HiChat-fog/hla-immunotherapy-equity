@@ -1,0 +1,5 @@
+allele,peptides_presented,strong_binders,genes_covered,frequency_pct,population,raw_score,sb_score
+A*11:01,71,27,19,46.9,Chinese GC patients,33.3,12.7
+A*24:02,44,13,15,25.0,Chinese GC patients,11.0,3.2
+A*02:01,62,11,21,5.0,Chinese GC patients,3.1,0.6
+A*03:01,67,27,19,0,Chinese GC patients,0.0,0.0
