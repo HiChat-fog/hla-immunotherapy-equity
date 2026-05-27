@@ -3,8 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Data: TCGA](https://img.shields.io/badge/data-TCGA--STAD-orange.svg)](https://portal.gdc.cancer.gov/)
-[![DOI: pending](https://img.shields.io/badge/DOI-pending-lightgrey.svg)]()
-[![Preprint](https://img.shields.io/badge/preprint-ChinaXiv-red.svg)]()
+[![Lint](https://github.com/HiChat-fog/hla-immunotherapy-equity/actions/workflows/lint.yml/badge.svg)](https://github.com/HiChat-fog/hla-immunotherapy-equity/actions/workflows/lint.yml)
 
 **FDA 批准的 HLA 限制型免疫疗法，系统性排除了胃癌负担最重的人群。**  
 This repo contains the full computational pipeline and evidence behind this finding.
