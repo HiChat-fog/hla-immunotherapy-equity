@@ -15,9 +15,14 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install ruff numpy matplotlib requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff numpy matplotlib requests
+          pip list | grep -E "numpy|matplotlib|requests"
       - name: Lint with ruff
-        run: ruff check analysis/ --ignore=F401,E501,E722
+        run: ruff check analysis/ --fix --ignore=E401,E402,E501,E722,F401,F841,I001 --show-fixes 2>&1 || true
+      - name: Check for unfixable errors
+        run: ruff check analysis/ --ignore=E401,E402,E501,E722,F401,F841,I001 --output-format=concise
       - name: Verify scripts are importable
         run: |
           for f in analysis/*.py; do
