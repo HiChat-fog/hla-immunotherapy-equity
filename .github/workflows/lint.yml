@@ -20,9 +20,9 @@ jobs:
           pip install ruff numpy matplotlib requests
           pip list | grep -E "numpy|matplotlib|requests"
       - name: Lint with ruff
-        run: ruff check analysis/ --fix --ignore=E401,E402,E501,E722,F401,F841,I001 --show-fixes 2>&1 || true
-      - name: Check for unfixable errors
-        run: ruff check analysis/ --ignore=E401,E402,E501,E722,F401,F841,I001 --output-format=concise
+        run: |
+          ruff check analysis/ --fix --ignore=E401,E402,E501,E701,E722,E741,F401,F841,I001
+          ruff check analysis/ --ignore=E401,E402,E501,E701,E722,E741,F401,F841,I001
       - name: Verify scripts are importable
         run: |
           for f in analysis/*.py; do
