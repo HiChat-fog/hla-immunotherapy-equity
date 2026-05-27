@@ -194,8 +194,6 @@ If you use this work, please cite:
 
 ## Author / 作者
 
-**HiChat** — 本科独立研究，生信/免疫信息学方向。
-
 GitHub: [@HiChat-fog](https://github.com/HiChat-fog)
 
 ---
