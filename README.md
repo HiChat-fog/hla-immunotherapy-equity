@@ -6,8 +6,10 @@
 [![DOI: pending](https://img.shields.io/badge/DOI-pending-lightgrey.svg)]()
 [![Preprint](https://img.shields.io/badge/preprint-ChinaXiv-red.svg)]()
 
-**FDA-approved HLA-restricted immunotherapies systematically exclude the populations with the highest gastric cancer burden.**  
-This repository provides the complete computational pipeline and evidence behind this finding.
+**FDA 批准的 HLA 限制型免疫疗法，系统性排除了胃癌负担最重的人群。**  
+This repo contains the full computational pipeline and evidence behind this finding.
+
+核心结论一句话：把 HLA 靶点从 A\*02:01 换成 A\*11:01 + A\*24:02，中国胃癌患者的理论覆盖率从 **5% → 60%**，翻 12 倍。
 
 ---
 
@@ -21,9 +23,9 @@ This repository provides the complete computational pipeline and evidence behind
 | KRAS SB peptides | **0** | **5** |
 | Driver gene coverage | 4 (all shared) | 6 (incl. **FBXW7-exclusive**) |
 
-- **A\*02:01 shows no significant binding preference for gastric cancer peptides above random expectation** (0.85× enrichment vs. 2.1× for A\*11:01 and A\*03:01).
-- **Greedy optimization**: re-prioritizing HLA targets by population frequency raises Chinese patient coverage from **5.0% → 60.2%** (12.4×), vs. European improvement of only 26.0% → 37.1% (1.4×).
-- **KRAS G12D/G12V structural mismatch with A\*02:01** means current therapies are blind to one of the most critical cancer drivers — while A\*11:01 handles it.
+- **A\*02:01 对胃癌突变肽段的强结合判定在统计上无法与随机肽库区分** — enrichment 仅 0.85×，A\*11:01 和 A\*03:01 都是 2.1×。
+- **贪心优化**：按人群 HLA 频率重排研发优先级，中国患者覆盖率 **5.0% → 60.2%**（12.4×），欧洲仅 26.0% → 37.1%（1.4×）。差距不在研发水平，在运气 — A\*02:01 恰好是欧洲的最优靶点。
+- **KRAS G12D/G12V 与 A\*02:01 结构不匹配**，现有疗法对最关键癌基因之一的 KRAS 完全无效 — 而 A\*11:01 能呈递。
 
 <!--
 **Visual abstract (below):** left = FDA status quo, right = optimized priority.
@@ -180,8 +182,8 @@ Meanwhile, **A\*11:01** (46.9%) and **A\*24:02** (25.0%) together cover >70% of 
 If you use this work, please cite:
 
 ```bibtex
-@misc{fang2026hla,
-  author = {Fang, Haichang},
+@misc{hichat2026hla,
+  author = {HiChat},
   title = {Global Equity Analysis of HLA-Restricted Immunotherapy},
   year = {2026},
   publisher = {GitHub},
@@ -192,9 +194,7 @@ If you use this work, please cite:
 
 ## Author / 作者
 
-**HiChat (Fang Haichang)** — 中国人民公安大学
-
-Independent undergraduate research. Bioinformatics & immunoinformatics.
+**HiChat** — 本科独立研究，生信/免疫信息学方向。
 
 GitHub: [@HiChat-fog](https://github.com/HiChat-fog)
 
